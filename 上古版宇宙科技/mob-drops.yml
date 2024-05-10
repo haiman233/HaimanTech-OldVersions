@@ -1,0 +1,325 @@
+#READ THE WIKI BEFORE CREATING AN ITEM! https://github.com/NCBPFluffyBear/SlimeCustomizer/blob/master/README.md
+BLAZE_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l烈焰人核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: BLAZE
+  chance: 0
+  recipe-display-item: BLAZE_SPAWN_EGG
+CAVE_SPIDER_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l洞穴蜘蛛核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: CAVE_SPIDER
+  chance: 1
+  recipe-display-item: CAVE_SPIDER_SPAWN_EGG
+CHICKEN_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l鸡核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: CHICKEN
+  chance: 1
+  recipe-display-item: CHICKEN_SPAWN_EGG
+COW_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l牛核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: COW
+  chance: 1
+  recipe-display-item: COW_SPAWN_EGG
+CREEPER_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l苦力怕核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: CREEPER
+  chance: 1
+  recipe-display-item: CREEPER_SPAWN_EGG
+ENDERMAN_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l末影人核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: ENDERMAN
+  chance: 1
+  recipe-display-item: ENDERMAN_SPAWN_EGG
+ENDERMITE_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l末影螨核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: ENDERMITE
+  chance: 1
+  recipe-display-item: ENDERMITE_SPAWN_EGG
+GHAST_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l恶魂核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: GHAST
+  chance: 1
+  recipe-display-item: GHAST_SPAWN_EGG
+GUARDIAN_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l守卫者核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: GUARDIAN
+  chance: 1
+  recipe-display-item: GUARDIAN_SPAWN_EGG
+HORSE_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l马核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: HORSE
+  chance: 1
+  recipe-display-item: HORSE_SPAWN_EGG
+MAGMA_CUBE_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l岩浆怪核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: MAGMA_CUBE
+  chance: 1
+  recipe-display-item: MAGMA_CUBE_SPAWN_EGG
+MUSHROOM_COW_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l哞菇核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: MUSHROOM_COW
+  chance: 1
+  recipe-display-item: MOOSHROOM_SPAWN_EGG
+OCELOT_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l豹猫核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: OCELOT
+  chance: 1
+  recipe-display-item: OCELOT_SPAWN_EGG
+PIG_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l猪核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: PIG
+  chance: 1
+  recipe-display-item: PIG_SPAWN_EGG
+RABBIT_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l兔子核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: RABBIT
+  chance: 1
+  recipe-display-item: RABBIT_SPAWN_EGG
+SHEEP_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l绵羊核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: SHEEP
+  chance: 1
+  recipe-display-item: SHEEP_SPAWN_EGG
+SILVERFISH_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l蠢虫核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: SILVERFISH
+  chance: 1
+  recipe-display-item: SILVERFISH_SPAWN_EGG
+SKELETON_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l骷髅核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: SKELETON
+  chance: 1
+  recipe-display-item: SKELETON_SPAWN_EGG
+SLIME_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l史莱姆核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: SLIME
+  chance: 1
+  recipe-display-item: SLIME_SPAWN_EGG
+SPIDER_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l蜘蛛核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: SPIDER
+  chance: 1
+  recipe-display-item: SPIDER_SPAWN_EGG
+SQUID_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l鱿鱼核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: SQUID
+  chance: 1
+  recipe-display-item: SQUID_SPAWN_EGG
+VILLAGER_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l村民核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: VILLAGER
+  chance: 1
+  recipe-display-item: VILLAGER_SPAWN_EGG
+WITHER_SKELETON_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l凋零骷髅核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: WITHER_SKELETON
+  chance: 1
+  recipe-display-item: WITHER_SKELETON_SPAWN_EGG
+WITCH_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l女巫核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: WITCH
+  chance: 1
+  recipe-display-item: WITCH_SPAWN_EGG
+WOLF_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l狼核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: WOLF
+  chance: 1
+  recipe-display-item: WOLF_SPAWN_EGG
+ZOMBIE_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l僵尸核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: ZOMBIE
+  chance: 1
+  recipe-display-item: ZOMBIE_SPAWN_EGG
+IRON_GOLEM_HEXING:
+  category: dongwu_hexing
+  item-type: CUSTOM
+  item-name: "&b&l铁傀儡核心"
+  item-lore:
+    - "&7&l无比强大的核心!"
+    - "&7&l宇宙凝聚的结晶"
+  item-id: DIAMOND
+  item-amount: 1
+  mob: IRON_GOLEM
+  chance: 1
+  recipe-display-item: COW_SPAWN_EGG

@@ -1,0 +1,974 @@
+JT_YZ:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l宇宙晶体"
+  item-lore:
+    - "&7基础材料!"
+    - "&7&l你真的做的了吗!"
+  item-id: SKULLdf7467c5f738c641246c09f8ce791e339a86e81de62049b41f492888172fa726
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MULTI_FUNCTIONAL_STORAGE_UNIT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MACHINE_CORE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CIRCUIT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: RESOURCE_BLEND_MACHINE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: NTW_PRISTINE_AI_CORE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: STABLEBLOCK
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FORCEFIELD_ENGINE
+      amount: 1
+MADA_1:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&1&l初级马达"
+  item-lore:
+    - "&b&l宇宙的起点!"
+    - "&3&l不要灰心加油!"
+  item-id: SKULL1e199400365f1ce97e73e77574e12d5b279d99608639958ecaa25bc80bbca271
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CARGO_MANAGER
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: CARGO_MANAGER
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: JT_YZ
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: CARGO_MANAGER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MACHINE_CIRCUIT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: CARGO_MANAGER
+      amount: 1
+MADA_2:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&2&l中级马达"
+  item-id: SKULL6db32b15d7f32704ed626fa52d06fb2b4071d336fdbfe61e6e41c669d6e37f47
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+MADA_3:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&3&l高级马达"
+  item-id: SKULLdec65fc87c504415eff730a2f4fe7d06d2f116ea2a313481f362d0a25d65e500
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+MADA_4:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&4&l巨级马达"
+  item-id: SKULLd774e5ef3d8bcde9ea21c34b84827d34531e68f111510f3383055ecaa74bebcc
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+MADA_5:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&5&l超极马达"
+  item-id: SKULL684380ad4dc388f561254c8409fa704d44747eb6e5feacba343e7c243cfac6a1
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+MADA_6:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&6&l终极马达"
+  item-id: SKULL21469ce67dfc28433aea8a45ab816e51bd39ba9eb815d22579e77698da0bf295
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+MADA_7:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&7&l特级马达"
+  item-id: SKULLc7ba1aadd9b6a15d468b40e2e4a9b2f89cbe7fe529b4c8ca930eb4795dff3e8b
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+MADA_8:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&8&l究极马达"
+  item-id: SKULLbdd07dc1410b3438841446cdce2bafba4fc61995445fe3084f5b075f926ebca1
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+MADA_9:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&9&l顶级马达"
+  item-id: SKULL9e52f7960ff3cec2f519a6353648c6e33bc51e131cc80917cf13081decbff24d
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+MADA_10:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l宇宙马达"
+  item-lore:
+    - "&7&l制造宇宙机器的核心前往马达工厂制造!"
+  item-id: SKULLe0f50f9bcf4ac4ecf18fa7122f2b244426a52104b373c871368c8e288bfbe664
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+MADA_11:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l宇宙马达V2"
+  item-lore:
+    - "&7&l制造宇宙机器的核心前往马达工厂制造!"
+  item-id: SKULLddbd3c28bd5c4e6bb51b378bcb7e1a3026edf773c77fabc2f825f094eba02051
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_10
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+MADA_12:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l宇宙马达V3"
+  item-lore:
+    - "&7&l制造宇宙机器的核心前往马达工厂制造!"
+  item-id: SKULL1480d57b0d1d432e074878c6aec5f45a2ce98d9c481fb8cc8382cff171f83699
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+YOUXIANG:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l油箱"
+  item-lore:
+    - "&7&l装取石油!"
+  item-id: SKULL9bb4377679601498b2537d80d8ef490522789fbe1a217ee412e32677b6d79854
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    2:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    3:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    4:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    5:
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    6:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    7:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    8:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+    9:
+      type: VANILLA
+      id: IRON_INGOT
+      amount: 1
+YUZHOUZHIXIN:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l宇宙之心"
+  item-lore:
+    - "&3&l宇宙零件的核心!"
+  item-id: SKULLac3a4b51a48002890fb271cdc1517eaf41ab00253c1b7d824272736bb41663d5
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: FN_MACHINERY_HIGHTECH_MACHINE_BLOCK
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: STABLEBLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: JT_YZ
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: NTW_INTERDIMENSIONAL_PRESENCE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: JT_YZ
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: NTW_PRISTINE_AI_CORE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: FN_MACHINERY_HIGHTECH_MACHINE_BLOCK
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: RESOURCE_BLEND_MACHINE
+      amount: 1
+YUZHOUZHIXIN_2:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l银河之心"
+  item-lore:
+    - "&7&l未知 前往马达工厂制造!"
+  item-id: SKULL93f9eeda3ba23fe1423c4036e7dd0a74461dff96badc5b2f2b9faa7cc16f382f
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+HM_1:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l鸿蒙发电机碎片"
+  item-lore:
+    - "&7&l超越一切!"
+  item-id: SKULL602a1169309f05ef2f061b1fa0fe225f29d73a24f8f07ccc2a705deeaca069d1
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+DY_1:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&1&l地狱核心"
+  item-lore:
+    - "&7&l世界核心!"
+  item-id: SKULLd500292f4afe52d10f299dfb26036322830450331e003084bb220333530664e1
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CETRUS_IGNIS
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+MD_2:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l末地核心"
+  item-lore:
+    - "&7&l世界核心!"
+  item-id: SKULLa6a76631c23ee2a700f33dcfa65c74dd30d0f157f3515db2257cad68e2dc7c3a
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CETRUS_LUMIUM
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: CORE_OF_BLOCK
+      amount: 1
+MADA_13:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l鸿蒙马达【终点了吗】"
+  item-lore:
+    - "&e&l巅峰!"
+  item-id: SKULL5f524166f7ce88a537158766a1c511e322a93a5e11dbf30fa6e85e78da861d8
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MADA_10
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MADA_10
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: MADA_12
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MADA_12
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: MADA_12
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: MADA_10
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: MADA_10
+      amount: 1
+SZ:
+  category: cailao_yuzhou
+  item-type: CUSTOM
+  item-name: "&b&l宇宙终点站"
+  item-lore:
+    - "&b&l恭喜你成功到达的宇宙的终点，一望无垠的虚无!"
+    - "&a&l前往鸿蒙工作台查看!"
+  item-id: MOJANG_BANNER_PATTERN
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1

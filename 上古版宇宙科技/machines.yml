@@ -1,0 +1,5195 @@
+NENGYUAN_1:
+  category: nengyuan_yuzhou
+  machine-name: '&e&l核电站'
+  machine-lore:
+  - '&7&l快速制造核辐射!'
+  - '&b&l⇨ 速度：1x'
+  block-type: SKULL7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 120
+    energy-buffer: 1024
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: REACTOR_ACCESS_PORT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_2:
+  category: nengyuan_yuzhou
+  machine-name: '&e&l核电站(II)'
+  machine-lore:
+  - '&7&l快速制造核辐射!'
+  - '&b&l⇨ 速度：5x'
+  block-type: SKULL7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 300
+    energy-buffer: 2048
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NENGYUAN_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_3:
+  category: nengyuan_yuzhou
+  machine-name: '&c&l核辐射基地'
+  machine-lore:
+  - '&7&l超级制造!'
+  - '&b&l⇨ 速度：1000x'
+  block-type: SKULL7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1024
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: JT_YZ
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NENGYUAN_2
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GRASS_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: THORIUM
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERRACK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NETHER_ICE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: NETHER_ICE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENRICHED_NETHER_ICE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CARBONADO
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_2
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_2
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLISTERING_INGOT_3
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 64
+        '2':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 64
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 16
+        '2':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BOOSTED_URANIUM
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_4:
+  category: nengyuan_yuzhou
+  machine-name: '&1&l精炼炉'
+  machine-lore:
+  - '&7&l自动制造精炼铁!'
+  - '&b&l⇨ 速度：10x'
+  block-type: SKULL8296f092524ae9c2a2e87881cb415adb358d6cb773c85dc97202fefb754c1
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 30
+    energy-buffer: 1024
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_INGOT_FACTORY_3
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: REFINED_IRON
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_INGOT_FACTORY_3
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REFINED_IRON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_5:
+  category: nengyuan_yuzhou
+  machine-name: '&2&l原油浆'
+  machine-lore:
+  - '&7无限生产原油!'
+  - '&b&l⇨ 速度：1x'
+  block-type: SKULLaef5acf134fa952f13fdf0b3899060cc18ebc0a971347e45a31ecf95a4b0b31c
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 256
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YOUXIANG
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: SLIMEFUN
+          id: YOUXIANG
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BUCKET_OF_OIL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_6:
+  category: nengyuan_yuzhou
+  machine-name: '&2&l原油浆(II)'
+  machine-lore:
+  - '&7无限生产原油!'
+  - '&b&l⇨ 速度：5x'
+  block-type: SKULL9fef722da05ae8bd8132905a11b5b6dfbf8e7ae0af599c8266e160fb05e6159b
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1024
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: NENGYUAN_5
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: YOUXIANG
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BUCKET_OF_OIL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_7:
+  category: nengyuan_yuzhou
+  machine-name: '&2&l原油浆(III)'
+  machine-lore:
+  - '&7无限生产原油!'
+  - '&b&l⇨ 速度：10x'
+  block-type: SKULLf7e541dfb4ba1f7dc28b548e347abbdc987ebe0e61c49fa87111ef1b2dcb2218
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 7200
+    energy-buffer: 20000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: JT_YZ
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: OIL_PUMP
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: NENGYUAN_6
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: YOUXIANG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BUCKET_OF_OIL
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_8:
+  category: nengyuan_yuzhou
+  machine-name: '&3&l地狱空间'
+  machine-lore:
+  - '&7&l 秘境世界!'
+  block-type: NETHERRACK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: NETHERRACK
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '3':
+      type: VANILLA
+      id: NETHERRACK
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DY_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    '7':
+      type: VANILLA
+      id: NETHERRACK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '9':
+      type: VANILLA
+      id: NETHERRACK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERRACK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHERRACK
+          amount: 64
+        '2':
+          type: VANILLA
+          id: NETHERRACK
+          amount: 64
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SOUL_SAND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_SAND
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SOUL_SOIL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_SOIL
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BASALT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BASALT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BLACKSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACKSTONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: OBSIDIAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OBSIDIAN
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CRYING_OBSIDIAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CRYING_OBSIDIAN
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_9:
+  category: nengyuan_yuzhou
+  machine-name: '&4&l末地空间'
+  machine-lore:
+  - '&7&l 秘境世界!'
+  block-type: END_STONE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: END_STONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    '3':
+      type: VANILLA
+      id: END_STONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MD_2
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+      amount: 1
+    '7':
+      type: VANILLA
+      id: END_STONE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    '9':
+      type: VANILLA
+      id: END_STONE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_HEAD
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3000
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_EGG
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 3000
+      input:
+        '1':
+          type: VANILLA
+          id: END_STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: END_STONE
+          amount: 64
+        '2':
+          type: VANILLA
+          id: END_STONE
+          amount: 64
+NENGYUAN_10:
+  category: nengyuan_yuzhou
+  machine-name: '&5&l秘境花园'
+  machine-lore:
+  - '&7&l宇宙中的秘境!'
+  block-type: SLIME_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1600
+    energy-buffer: 6400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CORE_OF_NATURE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_WITHER_ROSE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MEDIUM_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DANDELION
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DANDELION
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: AZURE_BLUET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: AZURE_BLUET
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RED_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_TULIP
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_TULIP
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_TULIP
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_TULIP
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CORNFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CORNFLOWER
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LILY_OF_THE_VALLEY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LILY_OF_THE_VALLEY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SUNFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUNFLOWER
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LILAC
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LILAC
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: ROSE_BUSH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ROSE_BUSH
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PEONY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PEONY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_11:
+  category: nengyuan_yuzhou
+  machine-name: '&6&l地毯机'
+  machine-lore:
+  - '&7&l宇宙中的秘境!'
+  block-type: SKULLefd8bed2dfe4c32168c972154eea335a8042e9d64b850767c6ea04ce8f85f12a
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 256
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RED_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+NENGYUAN_12:
+  category: nengyuan_yuzhou
+  machine-name: '&7&l潜影盒生产'
+  machine-lore:
+  - '&7潜影盒生成器!'
+  block-type: SKULL5bb43391a9dbff9eadae07b6862595c91d04c5938e23c285ac60c4b8769b24
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 512
+    energy-buffer: 6400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: SHULKER_BOX
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: TITANIUM
+      amount: 1
+    '3':
+      type: VANILLA
+      id: SHULKER_BOX
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '7':
+      type: VANILLA
+      id: SHULKER_BOX
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: TITANIUM
+      amount: 1
+    '9':
+      type: VANILLA
+      id: SHULKER_BOX
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CHEST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GZT_1:
+  category: gzt_yuzhou
+  machine-name: '&b&l聚合变'
+  machine-lore:
+  - '&7&l凝聚宇宙强大的力量!'
+  block-type: SKULL115b670a704ba080a730acf246da64c413901644847edd671c3da9a97441ddc5
+  progress-bar-item: NETHERITE_HELMET
+  stats:
+    energy-consumption: 1000000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: CROP_GROWTH_ACCELERATOR_2
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: CROP_GROWTH_ACCELERATOR_2
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BLAZE_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_BLAZE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CAVE_SPIDER_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_CAVE_SPIDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CHICKEN_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_CHICKEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COW_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_COW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CREEPER_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_ENDERMAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ENDERMITE_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_ENDERMITE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GHAST_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_GHAST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GUARDIAN_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_GUARDIAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: HORSE_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_HORSE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ENDERMAN_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_ENDERMAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGMA_CUBE_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_MAGMA_CUBE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MUSHROOM_COW_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_MUSHROOM_COW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: OCELOT_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_OCELOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: PIG_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_PIG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RABBIT_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_RABBIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SHEEP_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_SHEEP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SILVERFISH_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_SILVERFISH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SKELETON_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_SKELETON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_SLIME
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SPIDER_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_SPIDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SQUID_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_SQUID
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: VILLAGER_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_VILLAGER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: WITHER_SKELETON_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_WITHER_SKELETON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: WITCH_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_WITCH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: WOLF_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_WOLF
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ZOMBIE_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_ZOMBIE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '28':
+      speed-in-seconds: 2000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: IRON_GOLEM_HEXING
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELECTRIC_SPAWNER_IRON_GOLEM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GZT_2:
+  category: gzt_yuzhou
+  machine-name: '&e&l马达工厂'
+  machine-lore:
+  - '&7&l制造宇宙零件!'
+  block-type: SKULL336367597b77db69d3f3e224f497c7d7e08f12c290e0ded15425693f4777fec8
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 500000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MADA_2
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_3
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MADA_4
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_5
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_8
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 54000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MADA_9
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MADA_10
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 27000
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MADA_10
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MADA_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 14400
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MADA_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MADA_12
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3600
+      input:
+        '1':
+          type: SLIMEFUN
+          id: YUZHOUZHIXIN
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: YUZHOUZHIXIN_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_0:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&1&l宇宙石头工厂'
+  machine-lore:
+  - '&7&l生产各种石头!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1600
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    '2':
+      type: NONE
+      id: N/A
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    '4':
+      type: NONE
+      id: N/A
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_COBBLE_GEN
+      amount: 1
+    '6':
+      type: NONE
+      id: N/A
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    '8':
+      type: NONE
+      id: N/A
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COMPRESSED_COBBLESTONE_5
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_1:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&9&l宇宙矿机（煤炭）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: COAL_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_COAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_6
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_2:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&2&l宇宙矿机（钻石）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: DIAMOND_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_DIAMOND
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DIAMOND_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_3:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&3&l宇宙矿机（绿宝石）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: EMERALD_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_EMERALD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EMERALD_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_4:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&4&l宇宙矿机（黄金）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: GOLD_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_GOLD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_5:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&5&l宇宙矿机（青金石）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: LAPIS_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_LAPIS
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LAPIS_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_6:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&6&l宇宙矿机（红石）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: REDSTONE_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_REDSTONE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_7:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&7&l宇宙矿机（石英）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: QUARTZ_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_QUARTZ
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_8:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&8&l宇宙矿机（下届合金）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: NETHERITE_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_NETHERITE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHERITE_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_9:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&9&l宇宙矿机（铁锭）'
+  machine-lore:
+  - '&7&l无穷无尽的矿物!'
+  block-type: IRON_BLOCK
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 2000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RESOURCE_CORE_IRON
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_7
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_QUARRY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_10:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&9&l宇宙磨粉（铁粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: IRON_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: IRON_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: IRON_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: IRON_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: IRON_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_11:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&1&l宇宙磨粉（金粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_12:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&2&l宇宙磨粉（铜粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COPPER_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COPPER_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COPPER_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COPPER_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_13:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&3&l宇宙磨粉（锡粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: TIN_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: TIN_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: TIN_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: TIN_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TIN_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_14:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&4&l宇宙磨粉（铅粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_15:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&5&l宇宙磨粉（银粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SILVER_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SILVER_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SILVER_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SILVER_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_16:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&6&l宇宙磨粉（铝粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_17:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&7&l宇宙磨粉（锌粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ZINC_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ZINC_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ZINC_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ZINC_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_18:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&8&l宇宙磨粉（镁粉）'
+  machine-lore:
+  - '&7&l无穷无尽的粉末!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_19:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&b&l宇宙铸锭（修复金锭）'
+  machine-lore:
+  - '&7&l超乎你的想象!'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 200000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITY_INGOT_FORMER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_20:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&1&l宇宙奇点构建机（铜奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COPPER_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COPPER_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_21:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&2&l宇宙奇点构建机（锌奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ZINC_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ZINC_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_22:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&3&l宇宙奇点构建机（锡奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIN_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: TIN_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: TIN_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TIN_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_23:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&4&l宇宙奇点构建机（铝奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ALUMINUM_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_24:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&5&l宇宙奇点构建机（银奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SILVER_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SILVER_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_25:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&6&l宇宙奇点构建机（镁奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_26:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&8&l宇宙奇点构建机（铅奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_27:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&9&l宇宙奇点构建机（金奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_28:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&a&l宇宙奇点构建机（铁奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: IRON_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: IRON_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: IRON_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_29:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&b&l宇宙奇点构建机（钻石奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: DIAMOND_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: DIAMOND_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: DIAMOND_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_30:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&c&l宇宙奇点构建机（绿宝石奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: EMERALD_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: EMERALD_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: EMERALD_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EMERALD_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_31:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&d&l宇宙奇点构建机（下届合金奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: NETHERITE_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: NETHERITE_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERITE_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NETHERITE_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_32:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&e&l宇宙奇点构建机（煤炭奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COAL_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COAL_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COAL_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COAL_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_33:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&1&l宇宙奇点构建机（红石奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: REDSTONE_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: REDSTONE_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REDSTONE_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_34:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&2&l宇宙奇点构建机（青金石奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LAPIS_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: LAPIS_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LAPIS_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LAPIS_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_35:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&3&l宇宙奇点构建机（石英奇点）'
+  machine-lore:
+  - '&3&l快速制造!'
+  block-type: DARK_PRISMARINE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000000
+    energy-buffer: 10000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: QUARTZ_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_9
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: QUARTZ_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: QUARTZ_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GAOJINENGYUAN_36:
+  category: gaojinengyuan_yuzhou
+  machine-name: '&b&l宇宙奇点构建机（无尽奇点）'
+  machine-lore:
+  - '&c&l这就是终点了吗？'
+  block-type: SKULLf75a8b6a89090f724102e06335f74f64d87d34e665d1d02c7b908daff27117c2
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 100000000
+    energy-buffer: 1000000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_12
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MADA_13
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: YUZHOUZHIXIN_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_12
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: MADA_11
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_SINGULARITY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GZT_3:
+  category: gzt_yuzhou
+  machine-name: '&b&l鸿蒙工作台（你快到终点了！）'
+  machine-lore:
+  - '&c&l这就是终点了吗？'
+  block-type: SKULL19801721c771c3c4898cb7d248321d89a9087a92d3dd58163cbd4e12ed75b549
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1000000000
+    energy-buffer: 2000000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_FORGE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MADA_13
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_FORGE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MADA_13
+      amount: 1
+    '5':
+      type: VANILLA
+      id: CRAFTING_TABLE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MADA_13
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_FORGE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MADA_13
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_FORGE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GAOJINENGYUAN_36
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SZ
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
