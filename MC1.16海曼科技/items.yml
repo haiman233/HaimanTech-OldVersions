@@ -1,0 +1,1713 @@
+#READ THE WIKI BEFORE CREATING AN ITEM!
+HAIMAN_INFO:
+  category: slime_customizer_info
+  item-type: CUSTOM
+  item-name: "&c&l海曼科技说明书"
+  item-lore:
+  - "&7配方里加调试棒是用来锁配方的！"
+  - "&7有调试棒制作的物品都在分子重组仪4里做！"
+  item-id: PAPER
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    4:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    5:
+      type: VANILLA
+      id: GRASS_BLOCK
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+ZOT_INGOT:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&b&l末地粒子锭"
+  item-lore:
+  - "&7这是一个由多种末地粒子炼制而成的材料"
+  item-id: NETHERITE_INGOT
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: QUIRP_UP
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: QUIRP_DOWN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: QUIRP_LEFT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: QUIRP_RIGHT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: QUIRPCONDENSATE
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+ARTIFICIAL_SILICON_BASED_MATERIALS:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l人造硅基材料"
+  item-lore:
+  - "&7这是MC历史上伟大的创新！"
+  - "&b通常用于制造精密零件与自动化机器"
+  item-id: PHANTOM_MEMBRANE
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CLAY_SILICON_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ENRICHED_NETHER_ICE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: KREEP_INGOT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: INK_MODULE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: MAGNESIUM_SALT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: STRANGE_NETHER_GOO
+      amount: 1
+    7:
+      type: VANILLA
+      id: WITHER_ROSE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: BUCKET_OF_FUEL
+      amount: 1
+MINECRAFT_SOURCE_STONE:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&d&lMinecraft源石"
+  item-lore:
+  - "&6这是Minecraft的核心，这是Minecraft的起源"
+  item-id: LAPIS_LAZULI
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: FORTUNE_SINGULARITY
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEAD_BUSH
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: MAGIC_SINGULARITY
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: EARTH_SINGULARITY
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: METAL_SINGULARITY
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: BBQ_SAUCE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: FERTILIZER_SWEET_BERRIES
+      amount: 1
+ANCIENT_ITEM:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&6&l远古的遗物"
+  item-lore:
+  - "&7这是从哪发掘出来的呢？"
+  item-id: ANCIENT_DEBRIS
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: NETHERITE_SCRAP
+      amount: 1
+    2:
+      type: VANILLA
+      id: POPPED_CHORUS_FRUIT
+      amount: 1
+    3:
+      type: VANILLA
+      id: MUSIC_DISC_11
+      amount: 1
+    4:
+      type: VANILLA
+      id: DAMAGED_ANVIL
+      amount: 1
+    5:
+      type: VANILLA
+      id: PRISMARINE_SHARD
+      amount: 1
+    6:
+      type: VANILLA
+      id: CRACKED_NETHER_BRICKS
+      amount: 1
+    7:
+      type: VANILLA
+      id: PODZOL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    9:
+      type: VANILLA
+      id: PODZOL
+      amount: 1
+MINECRAFT_DEAD_BUSH_GHOST:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l枯 死 的 灌 木"
+  item-lore:
+  - "&7这是一个传说..."
+  - "&8在分子重组仪4中合成它"
+  item-id: DEAD_BUSH
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+ULTIMATE_ENERGY_MOTOR:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&4&l终极能源马达"
+  item-lore:
+  - "&8这难道就是马达的极限了？"
+  item-id: SKULLCcb94263f712d902dd136251fd4d8d005890c657ab5ee490ccc9bf6ec09b8f57
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: REPEATING_COMMAND_BLOCK
+      amount: 1
+    2:
+      type: VANILLA
+      id: COMMAND_BLOCK
+      amount: 1
+    3:
+      type: VANILLA
+      id: CHAIN_COMMAND_BLOCK
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+HAIMAN_INFINITY_CONSTRUCTOR_2:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&f&l无尽锭压缩奇点"
+  item-lore:
+  - "&7由6个无尽锭奇点压缩而成"
+  - "&8在分子重组仪4中合成它"
+  item-id: SKULL8af6bd2c033a838d4ff7fd555321e06cf806a75c4a2b5868c71004e02a1860a4
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+MAGIC_SWEET_POTATO:
+  category: slime_customizer_zhuangshi
+  item-type: CUSTOM
+  item-name: "&6&l魔芋"
+  item-lore:
+  - "&7这是一个服务器的象征"
+  - "&8在分子重组仪32767中合成它"
+  item-id: SKULL454f2bc3ecf5075d0dde8a4a482f5ada21d3a6856bc7bfad51bbbc003c86c543
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+H_FUEL:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&2&l氚氘合成燃料"
+  item-lore:
+  - "&7它是人造小太阳的燃料"
+  - "&8在分子重组仪4中合成它"
+  item-id: SKULLf1bb2c3bd65cdd84a804eca98b7a46735f01e6a1c9199d6661663dbdb4f5b4
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    4:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+HT_MODULE_1:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&5&l创世高温模块"
+  item-lore:
+  - "&7它可以将温度升至一亿摄氏度以上"
+  - "&8在分子重组仪5中合成它"
+  item-id: SKULLf25a8dfe753c9c9251f0b0f6d94e9c8ffd42c1579550bf922d1862ff986c4d5
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    4:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    5:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+DOGE:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&c&lDOGE"
+  item-lore:
+  - "&7狗头保命！"
+  - "&8在分子重组仪32767中合成它"
+  item-id: SKULLa374fd6d1448fa130e9249af199023846b8fc877f117f3ac1c43403ba7fef3
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    4:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    5:
+      type: VANILLA
+      id: GRASS_BLOCK
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+HAIMAN_TEA:
+  category: slime_customizer_zhuangshi
+  item-type: CUSTOM
+  item-name: "&a&l星巴克奶茶"
+  item-lore:
+  - "&7三点几啦！饮茶先啦！"
+  - "&8在分子重组仪32767中合成它"
+  item-id: SKULLd672c57f4c7b9e962b45b55dd7bd7886880d7eef26db6c2cce03c8ff8c48
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    2:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    4:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    5:
+      type: VANILLA
+      id: GRASS_BLOCK
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+EMOJI_HAPPY:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l开心黄豆"
+  item-lore:
+  - "&7好嗨哟！"
+  item-id: SKULL3baabe724eae59c5d13f442c7dc5d2b1c6b70c2f83364a488ce5973ae80b4c3
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: BLACK_DYE
+      amount: 1
+    5:
+      type: VANILLA
+      id: DROPPER
+      amount: 1
+    6:
+      type: VANILLA
+      id: RED_DYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_NERVOUS:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l流汗黄豆"
+  item-lore:
+  - "&7az"
+  item-id: SKULL6ccd5472a46f46e4cdfda9adea2320cccfbae11198b6aae163d17c4b5b4666d
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: PRISMARINE_CRYSTALS
+      amount: 1
+    5:
+      type: VANILLA
+      id: DROPPER
+      amount: 1
+    6:
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_ANGRY:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&4&l愤怒黄豆"
+  item-lore:
+  - "&7气死偶咧！(╬◣д◢)"
+  item-id: SKULL4fb97b17c6395392658f32718aa46befa1c31d3572651c30f7d2bf3b93f6ead9
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+    5:
+      type: VANILLA
+      id: NETHER_WART_BLOCK
+      amount: 1
+    6:
+      type: VANILLA
+      id: RED_DYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_ICE:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&4&l寒冰黄豆"
+  item-lore:
+  - "&7冻死我了..."
+  item-id: SKULL46a77dfed8297dc44dad6f29faf7277dfa98eafbb53fa66c7730a50e3818484b
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: BLUE_ICE
+      amount: 1
+    5:
+      type: VANILLA
+      id: NETHER_WART_BLOCK
+      amount: 1
+    6:
+      type: VANILLA
+      id: BLUE_ICE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_ZZZ:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l睡觉黄豆"
+  item-lore:
+  - "&7ZZZZZZZZ..."
+  item-id: SKULL9c4a41554342b2cbfbd895e9ec7089ae861fec8f51693822ec1eb3ca3f18
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: MILK_BUCKET
+      amount: 1
+    5:
+      type: VANILLA
+      id: YELLOW_BED
+      amount: 1
+    6:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_OU:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l呕吐黄豆"
+  item-lore:
+  - "&7呕!"
+  item-id: SKULLaabfabf0adb2a615e901fe0040e322c51fb7d11c82cfafa21e5221a5f6a2e030
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: FERMENTED_SPIDER_EYE
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: POISONOUS_POTATO
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_LAUGH:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l大笑黄豆"
+  item-lore:
+  - "&7啊哈哈哈哈哈哈哈!"
+  item-id: SKULL5059d59eb4e59c31eecf9ece2f9cf3934e45c0ec476fc86bfaef8ea913ea710
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: BUCKET
+      amount: 1
+    5:
+      type: VANILLA
+      id: DROPPER
+      amount: 1
+    6:
+      type: VANILLA
+      id: APPLE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_LAUGHING_CRYING:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l笑哭黄豆"
+  item-lore:
+  - "&7啊哈哈呜呜!"
+  item-id: SKULLc2767e93720a81000cdb11bffe82f1ee6a67fbbc49576b0e4b403f0321e36f62
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: DIAMOND
+      amount: 1
+    5:
+      type: VANILLA
+      id: DROPPER
+      amount: 1
+    6:
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_SAD:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l伤心黄豆"
+  item-lore:
+  - "&7嘤嘤嘤!"
+  item-id: SKULL1c2672aaae58f3d1852d19b8422caf70b32582f8de3fcb5c7c24dacb7ebc3
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: PAPER
+      amount: 1
+    5:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    6:
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_CRY:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l大哭黄豆"
+  item-lore:
+  - "&7呜呜呜呜呜!"
+  item-id: SKULL3255846467f33937db9f43cdfb34a0dfd12f57522e8a988e458b5ac3c134e
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: PUFFERFISH
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_SHIT:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l狗屎黄豆"
+  item-lore:
+  - "&7吔屎啦你!"
+  item-id: SKULLf650232c1d8b337965087693449c02c960ca4393b048346a4f0b2e18e58fa
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: BROWN_DYE
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: MELON_SEEDS
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_WOW:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l惊讶黄豆"
+  item-lore:
+  - "&7这是什么骚操作!"
+  item-id: SKULLf720df911c052377065408db78a25c678f791eb944c063935ae86dbe51c71b
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: DIAMOND_BLOCK
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: ANCIENT_DEBRIS
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_CRAZY:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l阿巴阿巴黄豆"
+  item-lore:
+  - "&7睿智的眼神!"
+  item-id: SKULL71becacec858a19848860b2522c32936adf1588c1ef42379403fef83da4bb
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: BRICK
+      amount: 1
+    5:
+      type: VANILLA
+      id: DIAMOND_AXE
+      amount: 1
+    6:
+      type: VANILLA
+      id: NETHER_BRICK
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_LOVE:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l亲亲黄豆"
+  item-lore:
+  - "&7❥ლ(°◕‵ƹ′◕ლ)"
+  item-id: SKULL545bd18a2aaf469fad72e52cde6cfb02bfbaa5bfed2a8151277f779ebcdcec1
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: RED_DYE
+      amount: 1
+    5:
+      type: VANILLA
+      id: DROPPER
+      amount: 1
+    6:
+      type: VANILLA
+      id: BEETROOT_SOUP
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_LUE:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l吐舌黄豆"
+  item-lore:
+  - "&7略略略！"
+  item-id: SKULL5f15c9b8edc5629b6caa49148a20c5890853c2674385e43876ca56d1d465f
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: EGG
+      amount: 1
+    5:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    6:
+      type: VANILLA
+      id: PINK_DYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_CONFIDENCE:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l歪嘴黄豆"
+  item-lore:
+  - "&7歪嘴战神！"
+  item-id: SKULL44c8cd31bac657a3f26b52e262c83eb8338d56651fd22c1633565f3dbbc45777
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: DRIED_KELP
+      amount: 1
+    5:
+      type: VANILLA
+      id: CHARCOAL
+      amount: 1
+    6:
+      type: VANILLA
+      id: BLACK_DYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_DEAD:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l嗝屁黄豆"
+  item-lore:
+  - "&7这操作...直接给我送走了！"
+  item-id: SKULLb371e4e1cf6a1a36fdae27137fd9b8748e6169299925f9af2be301e54298c73
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: RED_MUSHROOM
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: WARPED_ROOTS
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_THINKING:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l思索黄豆"
+  item-lore:
+  - "&7emmm，容我想想！"
+  item-id: SKULL1fea99ad95b570175fda25c3a69788d6a9b854aa13f8a5ff63f6efedf581dfb6
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: CHORUS_FLOWER
+      amount: 1
+    5:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    6:
+      type: VANILLA
+      id: LARGE_FERN
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_EMOTICON_EYES:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l卡姿兰大眼睛黄豆"
+  item-lore:
+  - "&7就这样看着你...看着你"
+  item-id: SKULLbb2aef7da8fc1cb76edc1080fc2b4145e8d86782b7cd7358b1d65b652fd98c2
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: ENDER_EYE
+      amount: 1
+    5:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    6:
+      type: VANILLA
+      id: SPIDER_EYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_XOK:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l恐怖黄豆"
+  item-lore:
+  - "&7嗷呜...嘶"
+  item-id: SKULL8ef97ddac7b83e56b90496ed0b3d6951a385236585b489f67acfef51ca7a63a7
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: RED_DYE
+      amount: 1
+    5:
+      type: VANILLA
+      id: DROPPER
+      amount: 1
+    6:
+      type: VANILLA
+      id: QUARTZ
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_BIG_MOUTH_CRYING:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l痛哭大嘴黄豆"
+  item-lore:
+  - "&7啊啊啊啊呜呜呜呜啊啊啊"
+  item-id: SKULL5f6168dc202c049fbdd1b352176e198094bf7d1fac56240b5ea2b09b2fa5428a
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: TNT
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_COOL:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l墨镜黄豆"
+  item-lore:
+  - "&7带着我漂亮的小墨镜！"
+  item-id: SKULL2d2175ebe9ae0e1a658d9af82dacfb8369052d8121d4ea3886738a1cca5
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: COAL_BLOCK
+      amount: 1
+    5:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    6:
+      type: VANILLA
+      id: COAL_BLOCK
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_BEARD:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l胡子黄豆"
+  item-lore:
+  - "&7小胡子...嘿嘿！"
+  item-id: SKULL3636f2724aa6aa4de7ac46c19f3c845fb14847a518c8f7e03d792c82effb1
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: VINE
+      amount: 1
+    5:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    6:
+      type: VANILLA
+      id: BLACK_DYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+EMOJI_SPIKE:
+  category: slime_customizer_emoji
+  item-type: CUSTOM
+  item-name: "&e&l斯派克黄豆"
+  item-lore:
+  - "&7荒野乱斗的标志！"
+  - "&7可爱的斯派克(*╹▽╹*)"
+  item-id: SKULL8d8f5fb387ca66fc2f65b91fcb231604548e8565895bb96c676984205e6f19
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    2:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    3:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    4:
+      type: VANILLA
+      id: CACTUS
+      amount: 1
+    5:
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    6:
+      type: VANILLA
+      id: CACTUS
+      amount: 1
+    7:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    8:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1
+    9:
+      type: VANILLA
+      id: YELLOW_DYE
+      amount: 1

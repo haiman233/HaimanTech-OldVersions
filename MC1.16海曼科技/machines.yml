@@ -1,0 +1,8385 @@
+COMPRESSION_BLOCK_MACHINE:
+  category: slime_customizer
+  machine-name: '&b&l压块机'
+  machine-lore:
+  - '&7可以将铁锭/24k金锭/煤炭压成块'
+  block-type: SKULL2986794521869e8327ef81dbc35c9856bc4051df9888d81eab212442b176a82f
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1
+    energy-buffer: 5
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '2':
+      type: NONE
+      id: N/A
+      amount: 1
+    '3':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '4':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '7':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '8':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '9':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_RESISTANCE:
+  category: slime_customizer
+  machine-name: "&4&l海曼牌电阻"
+  machine-lore: 
+  - "&7是否觉得你的电太多了？"
+  - "&7通入红石就可以消耗你大量的费电？"
+  block-type: SKULLfb9051485e15700418022e38a5db28a049a2e627c5ffa56fd313bcdead406a8e
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1200000000
+    energy-buffer: 1200000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    2:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    5:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    8:
+      type: VANILLA
+      id: COOKED_COD
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+  recipes:
+    1:
+      speed-in-seconds: 1200
+      input:
+        1:
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: REDSTONE
+          amount: 1 
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+NUCLEAR_DECAY_MACHINE:
+  category: slime_customizer
+  machine-name: "&a&l核衰变机"
+  machine-lore: 
+  - "&3可以快速的进行核衰变"
+  block-type: SKULL24559b0d8cd87f5f7f0b172f48292c3e89db9818b61de221c46cf2dead25a560
+  progress-bar-item: FLINT_AND_STEEL  
+  stats:
+    energy-consumption: 600
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+    2:
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+    3:
+      type: NONE
+      id: N/A
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: FREEZER
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    8:
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+  recipes:
+    1:
+      speed-in-seconds: 55
+      input:
+        1:
+          type: SLIMEFUN
+          id: BOOSTED_URANIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 55
+      input:
+        1:
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 55
+      input:
+        1:
+          type: SLIMEFUN
+          id: NEPTUNIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MILK_HONEY_MACHINE:
+  category: slime_customizer_yitihua
+  machine-name: "&4&l采蜜挤奶一体机"
+  machine-lore: 
+  - "&7自动生产牛奶和蜂蜜"
+  block-type: SKULL5bcd2c68ab7866a429547499a7a1ff32e3ee29b4c6d65989382c4cb9676c2d2d
+  progress-bar-item: IRON_SHOVEL
+  stats:
+    energy-consumption: 50
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    2:
+      type: VANILLA
+      id: MILK_BUCKET
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: VANILLA
+      id: NETHERITE_INGOT
+    8:
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+    9:
+      type: VANILLA
+      id: NETHERITE_INGOT
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MILK_BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 100
+      input:
+        1:
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: HONEY_BOTTLE
+          amount: 1 
+        2:
+          type: NONE
+          id: N/A
+          amount: 1          
+ANCIENT_DEBRIS_MACHINE:
+  category: slime_customizer
+  machine-name: "&c&l残骸生产机"
+  machine-lore: 
+  - "&3用来生产远古的残骸"
+  block-type: SKULLcd4a7fce6f888e8042d634c7973b3cbc7e9320f1744608e6c5cdd5f4ef9ca393
+  progress-bar-item: IRON_SHOVEL
+  stats:
+    energy-consumption: 3800
+    energy-buffer: 20000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    2:
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+    3:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: NEPTUNIUM
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: VANILLA
+      id: NETHERITE_INGOT
+    8:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    9:
+      type: VANILLA
+      id: NETHERITE_INGOT
+  recipes:
+    1:
+      speed-in-seconds: 30
+      input:
+        1:
+          type: VANILLA
+          id: BONE_BLOCK
+          amount: 20
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: ANCIENT_DEBRIS
+          amount: 1 
+        2:
+          type: NONE
+          id: N/A
+          amount: 1          
+MOLECULAR_RECOMBINATION_INSTRUMENT_I:
+  category: slime_customizer_fenzi
+  machine-name: "&b&l分子重组仪 &7- &aI"
+  machine-lore: 
+  - "&8用来重组最基本的物品"
+  block-type: SKULLeb308694c5b01e815d498535f4c3db5827b4cc45f12a33717ad0ca9fe24509c0
+  progress-bar-item: IRON_SHOVEL
+  stats:
+    energy-consumption: 1800
+    energy-buffer: 36000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    2:
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+    3:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    8:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+  recipes:
+    1:
+      speed-in-seconds: 30
+      input:
+        1:
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 100
+      input:
+        1:
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 25
+      input:
+        1:
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 75
+      input:
+        1:
+          type: VANILLA
+          id: EGG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 60
+      input:
+        1:
+          type: VANILLA
+          id: COD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 20
+      input:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: HONEYCOMB
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 8
+      input:
+        1:
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: BAMBOO
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 12
+      input:
+        1:
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 28
+      input:
+        1:
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    11:
+      speed-in-seconds: 16
+      input:
+        1:
+          type: VANILLA
+          id: FEATHER
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PHANTOM_MEMBRANE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    12:
+      speed-in-seconds: 40
+      input:
+        1:
+          type: VANILLA
+          id: BONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: RABBIT_FOOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    13:
+      speed-in-seconds: 12
+      input:
+        1:
+          type: VANILLA
+          id: STRING
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MOLECULAR_RECOMBINATION_INSTRUMENT_II:
+  category: slime_customizer_fenzi
+  machine-name: "&b&l分子重组仪 &7- &eII"
+  machine-lore: 
+  - "&8用来重组较为高级的物品"
+  block-type: SKULLa44c5ce2eb643f8671c667e8802c9317ad8cc6af680d4ef671d8c0c63277900a
+  progress-bar-item: NETHERITE_PICKAXE
+  stats:
+    energy-consumption: 7000
+    energy-buffer: 70000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    2:
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    4:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    5:
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+    6:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    7:
+      type: SLIMEFUN
+      id: BLISTERING_INGOT_3
+    8:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: BLISTERING_INGOT_3
+  recipes:
+    1:
+      speed-in-seconds: 30
+      input:
+        1:
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 1000
+      input:
+        1:
+          type: VANILLA
+          id: EGG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DRAGON_EGG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 25
+      input:
+        1:
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 120
+      input:
+        1:
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DRAGON_HEAD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 500
+      input:
+        1:
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: HEART_OF_THE_SEA
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 55
+      input:
+        1:
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SCUTE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MOLECULAR_RECOMBINATION_INSTRUMENT_III:
+  category: slime_customizer_fenzi
+  machine-name: "&b&l分子重组仪 &7- &6III"
+  machine-lore: 
+  - "&8海曼的新型高科技"
+  - "&7每重组一个物品都要耗费4~6小时"
+  block-type: SKULL5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 20000
+    energy-buffer: 900000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+    2:
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+    3:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+    4:
+      type: SLIMEFUN
+      id: FOOD_FABRICATOR
+    5:
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_II
+    6:
+      type: SLIMEFUN
+      id: FOOD_FABRICATOR
+    7:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    8:
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+  recipes:
+    1:
+      speed-in-seconds: 21600
+      input:
+        1:
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 20000
+      input:
+        1:
+          type: VANILLA
+          id: CRIMSON_FUNGUS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRUCTURE_VOID
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 14400
+      input:
+        1:
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 14400
+      input:
+        1:
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: JIGSAW
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
+  category: slime_customizer_fenzi
+  machine-name: "&b&l分子重组仪 &7- &cIV"
+  machine-lore: 
+  - "&8这...是4级重组仪？"
+  block-type: SKULL57ccd36dc8f72adcb1f8c8e61ee82cd96ead140cf2a16a1366be9b5a8e3cc3fc
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 30000
+    energy-buffer: 930000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    2:
+      type: VANILLA
+      id: JIGSAW
+    3:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    4:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+    5:
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_III
+    6:
+      type: SLIMEFUN
+      id: INFINITE_INGOT
+    7:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+    8:
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+  recipes:
+    1:
+      speed-in-seconds: 21688
+      input:
+        1:
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: MINECRAFT_DEAD_BUSH_GHOST
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 21688
+      input:
+        1:
+          type: SLIMEFUN
+          id: INFINITY_SINGULARITY
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: HAIMAN_INFINITY_CONSTRUCTOR_2
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 20000
+      input:
+        1:
+          type: SLIMEFUN
+          id: PLUTONIUM
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: H_FUEL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MOLECULAR_RECOMBINATION_INSTRUMENT_V:
+  category: slime_customizer_fenzi
+  machine-name: "&b&l分子重组仪 &7- &4V"
+  machine-lore: 
+  - "&8这难道就是最终目标吗？"
+  block-type: SKULL30a35957fce2344aa8557ba6b36187ab415249934607bbbed2a053c3a86cafc0
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 40000
+    energy-buffer: 950000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    2:
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+    3:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    4:
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+    5:
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+    6:
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+    7:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+    8:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+    9:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+  recipes:
+    1:
+      speed-in-seconds: 10000
+      input:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: BEDROCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 10000
+      input:
+        1:
+          type: VANILLA
+          id: STRUCTURE_VOID
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: BARRIER
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 11000
+      input:
+        1:
+          type: SLIMEFUN
+          id: INFINITE_PANEL
+          amount: 5
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: HT_MODULE_1
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MOLECULAR_RECOMBINATION_INSTRUMENT_32767:
+  category: slime_customizer_fenzi
+  machine-name: "&b&l分子重组仪 &7- &5xxxMMDCCLXVII"
+  machine-lore: 
+  - "&8嗯？这是32767级的重组仪？"
+  - "&7在分子重组仪改装机中改装升级"
+  block-type: SKULL6f89b150be9c4c5249f355f68ea0c4391300a9be1f260d750fc35a1817ad796e
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 32767
+    energy-buffer: 114514
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+    2:
+      type: NONE
+      id: N/A
+    3:
+      type: NONE
+      id: N/A
+    4:
+      type: NONE
+      id: N/A
+    5:
+      type: VANILLA
+      id: DEBUG_STICK
+    6:
+      type: NONE
+      id: N/A
+    7:
+      type: NONE
+      id: N/A
+    8:
+      type: NONE
+      id: N/A
+    9:
+      type: NONE
+      id: N/A
+  recipes:
+    1:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: APPLE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: MAGIC_SWEET_POTATO
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: BONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: DOGE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: FERN
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: HAIMAN_TEA
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MOLECULAR_CHANGER:
+  category: slime_customizer_fenzi
+  machine-name: "&9&l分子重组仪改装机"
+  machine-lore: 
+  - "&b对分子重组仪进行魔改"
+  block-type: SKULL2afeefa29bfdb3202238a2c4b8dcb750506a30d122600f88725e5aa247335460
+  progress-bar-item: IRON_AXE
+  stats:
+    energy-consumption: 600
+    energy-buffer: 12000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    2:
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: MEDIUM_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: VANILLA
+      id: DIAMOND_BLOCK
+    8:
+      type: VANILLA
+      id: DIAMOND_BLOCK
+    9:
+      type: VANILLA
+      id: DIAMOND_BLOCK
+  recipes:
+    1:
+      speed-in-seconds: 2000
+      input:
+        1:
+          type: SLIMEFUN
+          id: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: MOLECULAR_RECOMBINATION_INSTRUMENT_32767
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+COMMAND_BLOCK_DYE_MACHINE:
+  category: slime_customizer
+  machine-name: "&6&l命令方块染色机"
+  machine-lore: 
+  - "&b可以给命令方块染色的机器"
+  block-type: SKULLed924489282abeb38aeacbf4c0eb3ad400d5257ffb3a605b87cf231c92fa2f4c
+  progress-bar-item: IRON_AXE
+  stats:
+    energy-consumption: 450
+    energy-buffer: 2500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: PLUTONIUM
+    2:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    3:
+      type: SLIMEFUN
+      id: PLUTONIUM
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: VANILLA
+      id: ORANGE_DYE
+    8:
+      type: VANILLA
+      id: BLUE_DYE
+    9:
+      type: VANILLA
+      id: LIME_DYE
+  recipes:
+    1:
+      speed-in-seconds: 1800
+      input:
+        1:
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: REPEATING_COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 1800
+      input:
+        1:
+          type: VANILLA
+          id: REPEATING_COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: CHAIN_COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 1800
+      input:
+        1:
+          type: VANILLA
+          id: CHAIN_COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_MUSHROOM_MACHINE:
+  category: slime_customizer_farm
+  machine-name: '&9&l菌落机'
+  machine-lore:
+  - '&3自动培育各类蘑菇'
+  block-type: SKULLd0c3bdd04d05a7d5252b9063fe08b64d644e1e30f5c69171ec33b6f9aa41d967
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 15
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: RED_MUSHROOM
+      amount: 1
+    '8':
+      type: VANILLA
+      id: WARPED_FUNGUS
+      amount: 1
+    '9':
+      type: VANILLA
+      id: RED_MUSHROOM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_MUSHROOM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_MUSHROOM
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: RED_MUSHROOM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_MUSHROOM
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: WARPED_FUNGUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WARPED_FUNGUS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: CRIMSON_FUNGUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CRIMSON_FUNGUS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: WARPED_ROOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WARPED_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: CRIMSON_ROOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CRIMSON_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_MUSHROOM_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_MUSHROOM_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: RED_MUSHROOM_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_MUSHROOM_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: MUSHROOM_STEM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSHROOM_STEM
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_PLANT_MACHINE:
+  category: slime_customizer_farm
+  machine-name: '&a&l植物栽培机'
+  machine-lore:
+  - '&3自动培育杂类陆地/海洋/下界/末地植物'
+  block-type: SKULL24af8d575f0a524ef66a21573e8a4a8ac7d640b00d98e2e9374e60470e7c86f0
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 15
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '7':
+      type: VANILLA
+      id: WEEPING_VINES
+      amount: 1
+    '8':
+      type: VANILLA
+      id: CHORUS_FLOWER
+      amount: 1
+    '9':
+      type: VANILLA
+      id: TUBE_CORAL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRASS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: TALL_GRASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TALL_GRASS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: FERN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FERN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: LARGE_FERN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LARGE_FERN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SEAGRASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SEAGRASS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SEA_PICKLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SEA_PICKLE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: KELP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: KELP
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_SPROUTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_SPROUTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: WARPED_ROOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WARPED_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: CRIMSON_ROOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CRIMSON_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: VINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: VINE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LILY_PAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LILY_PAD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_CORAL_PRODUCER:
+  category: slime_customizer_farm
+  machine-name: '&d&l珊瑚养殖机'
+  machine-lore:
+  - '&7自动培育珊瑚'
+  block-type: SKULLd8f9d9072d7fd1b5175e788a27e0ff050ecbe425f7e79d5f28226c2fdb7dc167
+  progress-bar-item: NETHERITE_SHOVEL
+  stats:
+    energy-consumption: 60
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+    '3':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '7':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    '8':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '9':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+  recipes:
+    '1':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: TUBE_CORAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TUBE_CORAL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BRAIN_CORAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRAIN_CORAL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BUBBLE_CORAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BUBBLE_CORAL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: FIRE_CORAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FIRE_CORAL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: HORN_CORAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HORN_CORAL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: TUBE_CORAL_FAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TUBE_CORAL_FAN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BUBBLE_CORAL_FAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BUBBLE_CORAL_FAN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: FIRE_CORAL_FAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FIRE_CORAL_FAN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: HORN_CORAL_FAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HORN_CORAL_FAN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BRAIN_CORAL_FAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRAIN_CORAL_FAN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: TUBE_CORAL_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TUBE_CORAL_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BRAIN_CORAL_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRAIN_CORAL_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: FIRE_CORAL_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FIRE_CORAL_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: HORN_CORAL_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HORN_CORAL_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BUBBLE_CORAL_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BUBBLE_CORAL_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_FLOWER_MACHINE:
+  category: slime_customizer_farm
+  machine-name: "&6&l花匠机"
+  machine-lore: 
+  - "&3自动养花"
+  block-type: SKULL4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 15
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    2:
+      type: SLIMEFUN
+      id: NEPTUNIUM
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: VANILLA
+      id: LILY_OF_THE_VALLEY
+    8:
+      type: SLIMEFUN
+      id: FOOD_FABRICATOR
+    9:
+      type: VANILLA
+      id: LILY_OF_THE_VALLEY
+  recipes:
+    1:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: DANDELION
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DANDELION
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: POPPY
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: ALLIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: ALLIUM
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: AZURE_BLUET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: AZURE_BLUET
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: RED_TULIP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: RED_TULIP
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: ORANGE_TULIP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: ORANGE_TULIP
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: WHITE_TULIP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: WHITE_TULIP
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: PINK_TULIP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PINK_TULIP
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    11:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: CORNFLOWER
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: CORNFLOWER
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    12:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: LILY_OF_THE_VALLEY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: LILY_OF_THE_VALLEY
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    13:
+      speed-in-seconds: 100
+      input:
+        1:
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    14:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: SUNFLOWER
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUNFLOWER
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    15:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: LILAC
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: LILAC
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    16:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: PEONY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PEONY
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    17:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: ROSE_BUSH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: ROSE_BUSH
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+NONE_NBT_MACHINE:
+  category: slime_customizer
+  machine-name: "&3&l无标签物品制作机"
+  machine-lore: 
+  - "&6制作各种无标签物品"
+  block-type: SKULL3fcc26189cf8394dabc5de9ff1964f2ed0e6e42887175f7be22e606d40487dd
+  progress-bar-item: SHEARS
+  stats:
+    energy-consumption: 30
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: SOUL_SOIL
+    2:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    3:
+      type: VANILLA
+      id: SOUL_SOIL
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    5:
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    7:
+      type: VANILLA
+      id: BRICK
+    8:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    9:
+      type: VANILLA
+      id: BRICK
+  recipes:
+    1:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: GUNPOWDER
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: FIREWORK_STAR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: FIREWORK_STAR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: FIREWORK_ROCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+STRANGE_NETHER_GOO_MACHINE:
+  category: slime_customizer
+  machine-name: "&5&l奇怪的下界粘液交易机"
+  machine-lore: 
+  - "&7通过金锭来与它交易以获取奇怪的下界粘液"
+  block-type: SKULL17a6a747437cd6f1c2d0241f3e4002611c88c92921526b0ff1802b6926433feb
+  progress-bar-item: GOLDEN_SWORD
+  stats:
+    energy-consumption: 200
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+    2:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    3:
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    5:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    7:
+      type: VANILLA
+      id: NETHERITE_INGOT
+    8:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    9:
+      type: VANILLA
+      id: NETHERITE_INGOT
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 3
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: STRANGE_NETHER_GOO
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1 
+LILY_PAD_MACHINE:
+  category: slime_customizer
+  machine-name: '&a&l莲叶分子联合机'
+  machine-lore:
+  - '&6消耗大量电来合成莲叶'
+  block-type: SKULL40e68eaeda7848c241c8855757e176ce555f0200f2e9c5843608b740dedfedd3
+  progress-bar-item: DIAMOND_HOE
+  stats:
+    energy-consumption: 6000
+    energy-buffer: 100000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: CACTUS
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '9':
+      type: VANILLA
+      id: CACTUS
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: OAK_LEAVES
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LILY_PAD
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+MAN_MADE_MOON:
+  category: slime_customizer
+  machine-name: "&l&e人造月球"
+  machine-lore: 
+  - "&6自动生产月球上的矿物"
+  block-type: SKULL7e8c8ff196730b5ec177745d3f32a6fc2a6f99cad55766ab0313b843676a6c9f
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    2:
+      type: VANILLA
+      id: MUSIC_DISC_11
+    3:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    5:
+      type: SLIMEFUN
+      id: ROCKET_1
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    7:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    8:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    9:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+  recipes:
+    1:
+      speed-in-seconds: 25
+      input:
+        1:
+          type: VANILLA
+          id: DIAMOND
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: KREEP_ROCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1 
+INFINITY_ALL_IN_ONE_MACHINE_1:
+  category: slime_customizer_yitihua
+  machine-name: "&9&l无尽锭一体机 &7- &eI"
+  machine-lore: 
+  - "&8唔，终于...做出来了"
+  - "&764s/item"
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 4000
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+    2:
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+    3:
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+    4:
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+    5:
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_V
+    6:
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+    7:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+    8:
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+    9:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+  recipes:
+    1:
+      speed-in-seconds: 64
+      input:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+INFINITY_ALL_IN_ONE_MACHINE_2:
+  category: slime_customizer_yitihua
+  machine-name: "&9&l无尽锭一体机 &7- &6II"
+  machine-lore: 
+  - "&8经过改良后的一体机似乎变得更快了"
+  - "&732s/item"
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 3800
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+    2:
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+    3:
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+    4:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    5:
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_1
+    6:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    7:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+    8:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+    9:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+  recipes:
+    1:
+      speed-in-seconds: 32
+      input:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 16
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+INFINITY_ALL_IN_ONE_MACHINE_3:
+  category: slime_customizer_yitihua
+  machine-name: "&9&l无尽锭一体机 &7- &cIII"
+  machine-lore: 
+  - "&8估计没人能做到这一步吧"
+  - "&712s/item"
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  progress-bar-item: NETHERITE_HOE
+  stats:
+    energy-consumption: 3500
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: STRUCTURE_BLOCK
+    2:
+      type: VANILLA
+      id: COMMAND_BLOCK
+    3:
+      type: VANILLA
+      id: JIGSAW
+    4:
+      type: VANILLA
+      id: REPEATING_COMMAND_BLOCK
+    5:
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_2
+    6:
+      type: VANILLA
+      id: CHAIN_COMMAND_BLOCK
+    7:
+      type: VANILLA
+      id: STRUCTURE_VOID
+    8:
+      type: VANILLA
+      id: BEDROCK
+    9:
+      type: VANILLA
+      id: BARRIER
+  recipes:
+    1:
+      speed-in-seconds: 12
+      input:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: INFINITE_INGOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_WASHING_MACHINE:
+  category: slime_customizer
+  machine-name: "&b&l盥洗机"
+  machine-lore: 
+  - "&e自动清洗物品"
+  block-type: SKULLc7de63d401f85eed8a5e08cfa6cb290c40b11a7c72b579b2f06e8bb4a8a7c099
+  progress-bar-item: WOODEN_SHOVEL
+  stats:
+    energy-consumption: 5
+    energy-buffer: 200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+    2:
+      type: VANILLA
+      id: WATER_BUCKET
+    3:
+      type: NONE
+      id: N/A
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: VANILLA
+      id: WATER_BUCKET
+    8:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    9:
+      type: VANILLA
+      id: WATER_BUCKET
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: SLIMEFUN
+          id: DIRTY_DRINK_BOTTLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: DRINK_BOTTLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: SLIMEFUN
+          id: DIRTY_TEA
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: RAW_TEA
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: SPONGE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: WET_SPONGE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_ANVIL_BROKER:
+  category: slime_customizer
+  machine-name: "&6&l铁砧破碎机"
+  machine-lore: 
+  - "&7自动破坏铁砧"
+  block-type: SKULL5cbd9f5ec1ed007259996491e69ff649a3106cf920227b1bb3a71ee7a89863f
+  progress-bar-item: GOLDEN_PICKAXE
+  stats:
+    energy-consumption: 20
+    energy-buffer: 2550
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    2:
+      type: VANILLA
+      id: DAMAGED_ANVIL
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    8:
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: ANVIL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: CHIPPED_ANVIL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: CHIPPED_ANVIL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DAMAGED_ANVIL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_GRAVEL_CREATER:
+  category: slime_customizer
+  machine-name: "&8&l砂砾转换机"
+  machine-lore: 
+  - "&7将一组原石转化成一组砂砾"
+  - "&764items/s"
+  block-type: SKULL1ee115656bc220755c6d5bc87260c82141c253a34bc3db2bd72b727befcc0
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 8500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    2:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    4:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    5:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    8:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+  recipes:
+    1:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: GRAVEL
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_END_PORTAL_FRAME_CREATER:
+  category: slime_customizer
+  machine-name: "&2&l末地传送门框架构造机"
+  machine-lore: 
+  - "&8将哭泣的黑曜石构造成末地传送门框架"
+  - "&7用扳手拆卸它"
+  block-type: END_PORTAL_FRAME
+  progress-bar-item: NETHERITE_PICKAXE
+  stats:
+    energy-consumption: 90000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    2:
+      type: VANILLA
+      id: DRAGON_EGG
+    3:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    8:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    1:
+      speed-in-seconds: 20
+      input:
+        1:
+          type: VANILLA
+          id: CRYING_OBSIDIAN
+          amount: 5
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: END_PORTAL_FRAME
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+WOOD_PEELER:
+  category: slime_customizer
+  machine-name: "&a&l原木剥皮机"
+  machine-lore: 
+  - "&7自动为原木剥皮"
+  block-type: SKULL1243ceca82338993c8718cac31672da31adc495384915db57d83967ab0ccb369
+  progress-bar-item: IRON_AXE
+  stats:
+    energy-consumption: 16
+    energy-buffer: 64
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    2:
+      type: VANILLA
+      id: STONECUTTER
+    3:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    4:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    5:
+      type: VANILLA
+      id: CHEST
+    6:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    7:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    8:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    9:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: OAK_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_OAK_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: SPRUCE_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_SPRUCE_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BIRCH_lOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_BIRCH_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: JUNGLE_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_JUNGLE_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: ACACIA_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_ACACIA_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: DARK_OAK_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_DARK_OAK_LOG
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: CRIMSON_STEM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_CRIMSON_STEM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: WARPED_STEM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_WARPED_STEM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: OAK_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_OAK_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: SPRUCE_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_SPRUCE_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    11:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BIRCH_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_BIRCH_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    12:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: JUNGLE_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_JUNGLE_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    13:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: ACACIA_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_ACACIA_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    14:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: DARK_OAK_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_DARK_OAK_WOOD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    15:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: CRIMSON_HYPHAE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_CRIMSON_HYPHAE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    16:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: WARPED_HYPHAE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STRIPPED_WARPED_HYPHAE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+INFESTED_MACHINE:
+  category: slime_customizer
+  machine-name: "&c&l虫蚀机"
+  machine-lore: 
+  - "&7将蠹虫塞进方块里"
+  block-type: SKULL4ec1c3f7d09ce6c0cb48ed30b4596a5c14fae79def8bfd14a59fc1935600bc7b
+  progress-bar-item: IRON_SWORD
+  stats:
+    energy-consumption: 32
+    energy-buffer: 128
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    2:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    3:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    4:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    5:
+      type: SLIMEFUN
+      id: HOOK
+    6:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    7:
+      type: SLIMEFUN
+      id: CHAIN
+    8:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: CHAIN
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: INFESTED_COBBLESTONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: INFESTED_STONE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: INFESTED_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: MOSSY_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: INFESTED_MOSSY_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: CRACKED_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: INFESTED_CRACKED_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: CHISELED_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: INFESTED_CHISELED_STONE_BRICKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_INFINITY_OIL_PUMP:
+  category: slime_customizer
+  machine-name: "&6&l无尽原油泵"
+  machine-lore: 
+  - "&7无需进行地质扫描便可以不断泵出石油"
+  block-type: SKULL4a7d54ca45a398c364cebbffb5390ce5e0345e0c7bc5e863acabf57d1342c4bd
+  progress-bar-item: DIAMOND_SHOVEL
+  stats:
+    energy-consumption: 800
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: OIL_PUMP
+    2:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    3:
+      type: SLIMEFUN
+      id: OIL_PUMP
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    8:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: BUCKET_OF_OIL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+SOIL_CHANGER:
+  category: slime_customizer_farm
+  machine-name: "&2&l土质改良机"
+  machine-lore: 
+  - "&7用于改良土壤"
+  block-type: SKULL6c07d48fd8764bc8d01a10cc6426578862090d9e856f3a8dd7f974a7521efc43
+  progress-bar-item: IRON_HOE
+  stats:
+    energy-consumption: 24
+    energy-buffer: 120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BATTERY
+    2:
+      type: SLIMEFUN
+      id: BATTERY
+    3:
+      type: SLIMEFUN
+      id: BATTERY
+    4:
+      type: SLIMEFUN
+      id: HEATING_COIL
+    5:
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    6:
+      type: SLIMEFUN
+      id: HEATING_COIL
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    8:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+  recipes:
+    1:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: COARSE_DIRT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DIRT
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: DIRT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: GRASS_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: GRASS_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: FARMLAND
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: FARMLAND
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: GRASS_PATH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: WHEAT
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PODZOL
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: PODZOL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MYCELIUM
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: NETHERRACK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: WARPED_NYLIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: WARPED_NYLIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: CRIMSON_NYLIUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: SOUL_SAND
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SOUL_SOIL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: CLAY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DIRT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_12K_GOLD_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&e&l12k金一体机'
+  machine-lore:
+  - '&7直接将金粉熔铸成12k金'
+  block-type: SKULL6a7d2717d10bec4159e8f1d3339eae352297a607143a96b29e8ec28737e0d9
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 600
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '2':
+      type: SLIMEFUN
+      id: MEDIUM_CAPACITOR
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '4':
+      type: SLIMEFUN
+      id: GOLD_12K
+    '5':
+      type: SLIMEFUN
+      id: FERTILIZER_BEETROOT
+    '6':
+      type: SLIMEFUN
+      id: GOLD_12K
+    '7':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '8':
+      type: SLIMEFUN
+      id: MEDIUM_CAPACITOR
+    '9':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_12K
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_24K_GOLD_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&e&l24k金一体机'
+  machine-lore:
+  - '&7直接将金粉熔铸成24k金'
+  block-type: SKULL6a7d2717d10bec4159e8f1d3339eae352297a607143a96b29e8ec28737e0d9
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '2':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '4':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+    '5':
+      type: SLIMEFUN
+      id: FERTILIZER_KELP
+    '6':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+    '7':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '8':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    '9':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    '1':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_CLAY_BALL_INGOT_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&8&l黏土球一体机'
+  machine-lore:
+  - '&7全自动一体化生产黏土球'
+  block-type: SKULLdaa55391ef89b2a534a58d0150f1621175310ea87735601aebe8d6b1d7c568bb
+  progress-bar-item: NETHERITE_PICKAXE
+  stats:
+    energy-consumption: 40
+    energy-buffer: 4000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '4':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '6':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    '7':
+      type: SLIMEFUN
+      id: STONE_CHUNK
+    '8':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '9':
+      type: SLIMEFUN
+      id: STONE_CHUNK
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CLAY_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_DIRT_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&2&l泥土一体机'
+  machine-lore:
+  - '&7一体化泥土'
+  - '&7（玩家们的玩笑罢了ovo）'
+  block-type: SKULLadd01aa4d0b541937d980ad145bc430f899a085a4a52bed3bcad2d17f89e0a87
+  progress-bar-item: WOODEN_SHOVEL
+  stats:
+    energy-consumption: 2
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    '2':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    '3':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    '4':
+      type: SLIMEFUN
+      id: BATTERY
+    '5':
+      type: SLIMEFUN
+      id: BATTERY
+    '6':
+      type: SLIMEFUN
+      id: BATTERY
+    '7':
+      type: VANILLA
+      id: DIRT
+    '8':
+      type: VANILLA
+      id: DIRT
+    '9':
+      type: VANILLA
+      id: DIRT
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DIRT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_VOID_INGOT_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: "&8&l虚空锭一体机"
+  machine-lore: 
+  - "&7全自动一体化生产虚空锭"
+  - "&7并且所需的虚空粒也大大减少"
+  block-type: SKULL7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
+  progress-bar-item: NETHERITE_PICKAXE
+  stats:
+    energy-consumption: 3000
+    energy-buffer: 60000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: VOID_INGOT
+    2:
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+    3:
+      type: SLIMEFUN
+      id: VOID_INGOT
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    8:
+      type: SLIMEFUN
+      id: CARBONADO_EDGED_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: SLIMEFUN
+          id: VOID_BIT
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: VOID_INGOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_AUTO_JUICER:
+  category: slime_customizer_farm
+  machine-name: "&6&l电动榨汁机"
+  machine-lore: 
+  - "&7全自动榨果汁"
+  block-type: SKULL666070ce03a545ee4d263bcf27f36338d249d7cb7a2376f92c1673ae134e04b6
+  progress-bar-item: IRON_SHOVEL
+  stats:
+    energy-consumption: 16
+    energy-buffer: 128
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: GLASS
+    2:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    3:
+      type: VANILLA
+      id: GLASS
+    4:
+      type: SLIMEFUN
+      id: REINFORCED_CLOTH
+    5:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    6:
+      type: SLIMEFUN
+      id: REINFORCED_CLOTH
+    7:
+      type: VANILLA
+      id: IRON_BLOCK
+    8:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    9:
+      type: VANILLA
+      id: IRON_BLOCK
+  recipes:
+    1:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: APPLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: APPLE_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: CARROT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: CARROT_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: MELON_SLICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: MELON_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: PUMPKIN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: PUMPKIN_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: SWEET_BERRIES
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: SWEET_BERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: GOLDEN_APPLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: GOLDEN_APPLE_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: GRAPE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: GRAPE_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: BLUEBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: BLUEBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: ELDERBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: ELDERBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: RASPBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: RASPBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    11:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: BLACKBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: BLACKBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    12:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: CRANBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: CRANBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    13:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: COWBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: COWBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    14:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: STRAWBERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: STRAWBERRY_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    15:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: OAK_APPLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 橡树苹果汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    16:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: COCONUT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 椰奶
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    17:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: CHERRY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 樱桃汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    18:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: POMEGRANATE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 石榴汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    19:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: LEMON
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 柠檬汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    20:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: LIME
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 酸橙汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    21:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: PLUM
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 酸梅汤
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    22:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: ORANGE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 橙汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    23:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: PEACH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 桃汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    24:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: PEAR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 梨汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    25:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: TOMATO
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: TOMATO_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    26:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: DRAGON_FRUIT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: 火龙果汁
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    27:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: SLIMEFUN
+          id: PINEAPPLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: PINEAPPLE_JUICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+GRASS_WOOD_CHANGER:
+  category: slime_customizer_farm
+  machine-name: "&a&l草木改良机"
+  machine-lore: 
+  - "&8对植物进行改良"
+  block-type: SKULL6945886fc40dfd7dcb09531f13a7b55dae92de52254da3d53636ef93bdc571
+  progress-bar-item: IRON_HOE
+  stats:
+    energy-consumption: 6
+    energy-buffer: 36
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    2:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    3:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    4:
+      type: VANILLA
+      id: GRASS
+    5:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    6:
+      type: VANILLA
+      id: GRASS
+    7:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    8:
+      type: SLIMEFUN
+      id: CLOTH
+    9:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: STICK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: GRASS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: TALL_GRASS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: FERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: LARGE_FERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_COPPER_DUST_PRODUCER:
+  category: slime_customizer
+  machine-name: '&c&l铜粉转换机'
+  machine-lore:
+  - '&7将其它矿粉转换成铜粉'
+  block-type: SKULL6ae5f15b6054983ba13f4ee4a8f24c8dd0d26cf180a41513e11f6fa0ebd3b817
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000
+    energy-buffer: 120000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    '2':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+    '3':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+    '5':
+      type: SLIMEFUN
+      id: CARBONADO_EDGED_CAPACITOR
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+    '8':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+  recipes:
+    '1':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: IRON_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: TIN_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+CORAL_DEAD_MACHINE:
+  category: slime_customizer
+  machine-name: "&d&l珊瑚失活机"
+  machine-lore: 
+  - "&7因为凋零的珊瑚无法通过其它途径获取"
+  - "&7（包括精准采集）"
+  - "&7所以这个机器可以让您获取失活的珊瑚"
+  block-type: SKULL644e39a028327d20a66846804118a675546e225dde96765e2c21cc4826a6c21d
+  progress-bar-item: NETHERITE_SHOVEL
+  stats:
+    energy-consumption: 5
+    energy-buffer: 800
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    2:
+      type: VANILLA
+      id: TUBE_CORAL
+    3:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    4:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    5:
+      type: VANILLA
+      id: LAVA_BUCKET
+    6:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    7:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    8:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    9:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: TUBE_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_TUBE_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BRAIN_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BRAIN_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BUBBLE_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BUBBLE_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: FIRE_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_FIRE_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: HORN_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_HORN_CORAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: TUBE_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_TUBE_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BUBBLE_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BUBBLE_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: FIRE_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_FIRE_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: HORN_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_HORN_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BRAIN_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BRAIN_CORAL_FAN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    11:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: TUBE_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_TUBE_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    12:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BRAIN_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BRAIN_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    13:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: FIRE_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_FIRE_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    14:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: HORN_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_HORN_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    15:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BUBBLE_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DEAD_BUBBLE_CORAL_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_SUGAR_PRODUCER_MACHINE:
+  category: slime_customizer_farm
+  machine-name: "&e&l糖提取机"
+  machine-lore: 
+  - "&7从水果和植物中提取糖"
+  block-type: SKULL215cd248e3fb7b038013a1d1487168df093a7bbedce4224b5c823d3ef681a784
+  progress-bar-item: STONE_AXE
+  stats:
+    energy-consumption: 30
+    energy-buffer: 300
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    2:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    4:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    5:
+      type: VANILLA
+      id: IRON_BLOCK
+    6:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    7:
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+    8:
+      type: SLIMEFUN
+      id: CORINTHIAN_BRONZE_INGOT
+    9:
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: APPLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 20
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 10
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BEETROOT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 16
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: SWEET_BERRIES
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: CARROT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 8
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: MELON_SLICE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: PUMPKIN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 12
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: MELON
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SUGAR
+          amount: 26
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_DECOMPRESSOR_MACHINE_1:
+  category: slime_customizer
+  machine-name: '&7&l解压机 &7- &eI'
+  machine-lore:
+  - '&7将1个钻石/1个24k金块转换为12个碳/9个24k金'
+  block-type: SKULLe48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 100
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '5':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '7':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+    '8':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    '9':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+  recipes:
+    '1':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_DECOMPRESSOR_MACHINE_2:
+  category: slime_customizer
+  machine-name: '&7&l解压机 &7- &eII'
+  machine-lore:
+  - '&7将1个钻石/1个24k金块转换为12个碳/9个24k金'
+  block-type: SKULLe48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 120
+    energy-buffer: 12000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '2':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_DECOMPRESSOR_MACHINE_1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '7':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+    '8':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+    '9':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_FISH_MACHINE:
+  category: slime_customizer_farm
+  machine-name: "&9&l网鱼机"
+  machine-lore: 
+  - "&7将鱼网回桶里"
+  - "&7注：该机器生产出的热带鱼桶"
+  - "&7可以放养出随机热带鱼"
+  block-type: SKULL2481e6f7369cdb29dc0702372e5a4dfdb9875ee6aced87b701f81999c0fdd195
+  progress-bar-item: FISHING_ROD
+  stats:
+    energy-consumption: 120
+    energy-buffer: 4800
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    2:
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    5:
+      type: SLIMEFUN
+      id: MEDIUM_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    8:
+      type: SLIMEFUN
+      id: MAGNET
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    1:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: COD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: COD_BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: SALMON
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SALMON_BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: PUFFERFISH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PUFFERFISH_BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 8
+      input:
+        1:
+          type: VANILLA
+          id: TROPICAL_FISH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: TROPICAL_FISH_BUCKET
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_CLAY_FOOD_PRODUCER:
+  category: slime_customizer_farm
+  machine-name: "&b&l粘土食材生产机"
+  machine-lore: 
+  - "&7自动化生产粘土食材"
+  block-type: SKULLf3f06bb34cb5a87ed1d239855974d91d4b28f13875aa892659651d8499f65
+  progress-bar-item: NETHERITE_SHOVEL
+  stats:
+    energy-consumption: 120
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    2:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    4:
+      type: SLIMEFUN
+      id: SOLDER_INGOT
+    5:
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    6:
+      type: SLIMEFUN
+      id: SOLDER_INGOT
+    7:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    8:
+      type: SLIMEFUN
+      id: REINFORCED_PLATE
+    9:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: TROPICAL_FISH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: TUNA_FISH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 1
+      input:
+        1:
+          type: VANILLA
+          id: GRASS
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: GREEN_GRASS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: COD
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: SNAIL_HEALTHY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: BEETROOT
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: CLAY_SWEET_POTATO
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: WHEAT
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: FLOUR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: POTATO
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: STARCH
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: OAK_LEAVES
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: CLAY_LEMON
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 3
+      input:
+        1:
+          type: VANILLA
+          id: KELP
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: DIRTY_TEA
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: SNAIL_BAD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_FOOD_FERMENTATION_MACHINE:
+  category: slime_customizer_farm
+  machine-name: "&3&l食品发酵机"
+  machine-lore: 
+  - "&6可以用来发酵土豆和蜘蛛眼"
+  block-type: SKULLb369c122388b1d68f512170b1f949ff8ef2fb5fd8320598cff200ec0e8e20c8d
+  progress-bar-item: TRIDENT
+  stats:
+    energy-consumption: 20
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: FERMENTED_SPIDER_EYE
+    2:
+      type: VANILLA
+      id: POISONOUS_POTATO
+    3:
+      type: VANILLA
+      id: FERMENTED_SPIDER_EYE
+    4:
+      type: VANILLA
+      id: SLIME_BLOCK
+    5:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    6:
+      type: VANILLA
+      id: SLIME_BLOCK
+    7:
+      type: VANILLA
+      id: EMERALD_BLOCK
+    8:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    9:
+      type: VANILLA
+      id: EMERALD_BLOCK
+  recipes:
+    1:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: POTATO
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: POISONOUS_POTATO
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: SPIDER_EYE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: FERMENTED_SPIDER_EYE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+SYNTHETIC_CHANGER:
+  category: slime_customizer
+  machine-name: "&5&l人造改良机"
+  machine-lore: 
+  - "&7自动化生产人造材料"
+  block-type: SKULLfdcccca8e9a518285e0352b43182f5845b1a66b9f09b450222c6e21005b6ca1a
+  progress-bar-item: NETHERITE_AXE
+  stats:
+    energy-consumption: 8000
+    energy-buffer: 32000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    2:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+    3:
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+    4:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    5:
+      type: SLIMEFUN
+      id: SYNTHETIC_DIAMOND
+    6:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    7:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    8:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+    9:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+  recipes:
+    1:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: DIAMOND
+          amount: 24
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: SYNTHETIC_DIAMOND
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: LAPIS_LAZULI
+          amount: 48
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: SYNTHETIC_SAPPHIRE
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: EMERALD
+          amount: 24
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: SYNTHETIC_EMERALD
+          amount: 2
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_BANNER_PATTERN_PRODUCER:
+  category: slime_customizer
+  machine-name: "&e&l旗帜图案印刷机"
+  machine-lore: 
+  - "&7用于印刷旗帜图案"
+  block-type: SKULL2de1a9fc8ddd772b3518bb955fd4dc7e83dcd54c12a357c1b2238102a15ce48c
+  progress-bar-item: BOW
+  stats:
+    energy-consumption: 240
+    energy-buffer: 4800
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    2:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    4:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    5:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    6:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    7:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+    8:
+      type: SLIMEFUN
+      id: SYNTHETIC_SAPPHIRE
+    9:
+      type: SLIMEFUN
+      id: SYNTHETIC_EMERALD
+  recipes:
+    1:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: FLOWER_BANNER_PATTERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: ENCHANTED_GOLDEN_APPLE
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MOJANG_BANNER_PATTERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 100
+      input:
+        1:
+          type: VANILLA
+          id: GRASS_BLOCK
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: GLOBE_BANNER_PATTERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: SKULL_BANNER_PATTERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: CREEPER_HEAD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: CREEPER_BANNER_PATTERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 200
+      input:
+        1:
+          type: VANILLA
+          id: GOLD_BLOCK
+          amount: 24
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PIGLIN_BANNER_PATTERN
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_LUMP_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: "&c&l结晶一体机"
+  machine-lore: 
+  - "&7一体化制作魔法结晶3和末影结晶3"
+  block-type: SKULL3625be5ba96fc11448aaddb915a390391c3f92f4af81a4a2adb0e3f4f65
+  progress-bar-item: SHEARS
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 12000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    2:
+      type: SLIMEFUN
+      id: REINFORCED_PLATE
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+    8:
+      type: SLIMEFUN
+      id: COOLING_UNIT
+    9:
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+  recipes:
+    1:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: NETHER_WART
+          amount: 16
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: MAGIC_LUMP_3
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: ENDER_EYE
+          amount: 16
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: ENDER_LUMP_3
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+MUSIC_DISC_PRODUCER:
+  category: slime_customizer
+  machine-name: "&b&l唱片刻印机"
+  machine-lore: 
+  - "&7自动刻印唱片"
+  block-type: SKULLbef1a5afa3a51413880ae7b2ac99a12877573dc404646942bef2d932a3845974
+  progress-bar-item: IRON_HOE
+  stats:
+    energy-consumption: 64
+    energy-buffer: 6400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    2:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    3:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    4:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    5:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    6:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    8:
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+  recipes:
+    1:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: YELLOW_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_13
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: LIME_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_CAT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: ORANGE_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_BLOCKS
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: RED_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_CHIRP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    5:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 3
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_FAR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    6:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: PURPLE_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_MALL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    7:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: MAGENTA_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_MELLOHI
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    8:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: BLACK_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_STAL
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    9:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: WHITE_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_STRAD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    10:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: GREEN_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_WARD
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    11:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: BLUE_DYE
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_WAIT
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    12:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: CRACKED_STONE_BRICKS
+          amount: 32
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    13:
+      speed-in-seconds: 100
+      input:
+        1:
+          type: VANILLA
+          id: BLAZE_ROD
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_HORSE_ARMOR_PRODUCER:
+  category: slime_customizer
+  machine-name: "&6&l马凯打造机"
+  machine-lore: 
+  - "&7自动打造马凯"
+  block-type: SKULL1df28744ee147851b9ec2d491a65a47ede1a521000b535106dc3b1fbf6471481
+  progress-bar-item: IRON_AXE
+  stats:
+    energy-consumption: 8
+    energy-buffer: 64
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    2:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+    3:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    4:
+      type: VANILLA
+      id: LEATHER
+    5:
+      type: VANILLA
+      id: LEATHER
+    6:
+      type: VANILLA
+      id: LEATHER
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    8:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    1:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 7
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: IRON_HORSE_ARMOR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 7
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: GOLDEN_HORSE_ARMOR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: LEATHER
+          amount: 7
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: LEATHER_HORSE_ARMOR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    4:
+      speed-in-seconds: 4
+      input:
+        1:
+          type: VANILLA
+          id: DIAMOND
+          amount: 7
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: DIAMOND_HORSE_ARMOR
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_STONE_CHANGER:
+  category: slime_customizer
+  machine-name: "&6&l石化机"
+  machine-lore: 
+  - "&7通过改造物品结构将物品石化"
+  - "&7可以制作石化橡木台阶"
+  block-type: SKULL3c9ca6078f4b34cd36de8ad0f23cb218ac7bbcd43ae15440f93607fd1356d6a
+  progress-bar-item: IRON_AXE
+  stats:
+    energy-consumption: 16
+    energy-buffer: 128
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    2:
+      type: VANILLA
+      id: STONE
+    3:
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+    4:
+      type: VANILLA
+      id: SMOOTH_STONE_SLAB
+    5:
+      type: VANILLA
+      id: SMOOTH_STONE_SLAB
+    6:
+      type: VANILLA
+      id: SMOOTH_STONE_SLAB
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    8:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+  recipes:
+    1:
+      speed-in-seconds: 6
+      input:
+        1:
+          type: VANILLA
+          id: OAK_SLAB
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: PETRIFIED_OAK_SLAB
+          amount: 6
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: BLACKSTONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    3:
+      speed-in-seconds: 2
+      input:
+        1:
+          type: VANILLA
+          id: OAK_LEAVES
+          amount: 32
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: VANILLA
+          id: STONE
+          amount: 64
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_LEARHER_CHANGER:
+  category: slime_customizer
+  machine-name: '&c&l皮质转换机'
+  machine-lore:
+  - '&6将皮革和兔子皮互相转换'
+  block-type: SKULL8c335c9d963a10ca1fdce4c1ef3e20ae8bbd178e52720f2210cd0e662a90f035
+  progress-bar-item: SHEARS
+  stats:
+    energy-consumption: 6
+    energy-buffer: 60
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: LEATHER
+    '2':
+      type: VANILLA
+      id: LEATHER
+    '3':
+      type: VANILLA
+      id: LEATHER
+    '4':
+      type: VANILLA
+      id: SLIME_BLOCK
+    '5':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+    '6':
+      type: VANILLA
+      id: SLIME_BLOCK
+    '7':
+      type: VANILLA
+      id: RABBIT_HIDE
+    '8':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+    '9':
+      type: VANILLA
+      id: RABBIT_HIDE
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: RABBIT_HIDE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RABBIT_HIDE 
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_ELECTRIC_INGOT_FACTORY_4:
+  category: slime_customizer_slimefun_machine
+  machine-name: '&c电动铸锭机 &7(&eIV&7)'
+  machine-lore:
+  block-type: RED_TERRACOTTA
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 80
+    energy-buffer: 160
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: VANILLA
+      id: FLINT_AND_STEEL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_INGOT_FACTORY_3
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1 
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: IRON_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_4K
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: TIN_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TIN_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_ELECTRIC_INGOT_FACTORY_5:
+  category: slime_customizer_slimefun_machine
+  machine-name: '&c电动铸锭机 &7(&eV&7)'
+  machine-lore:
+  block-type: RED_TERRACOTTA
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 320
+    energy-buffer: 1600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: VANILLA
+      id: FLINT_AND_STEEL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_ELECTRIC_INGOT_FACTORY_4
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1 
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: IRON_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_4K
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: TIN_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TIN_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_DUST
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_INGOT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_CARBON_PRESS_4:
+  category: slime_customizer_slimefun_machine
+  machine-name: '&c碳压机 &7- &eIV'
+  machine-lore:
+  block-type: BLACK_STAINED_GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 320
+    energy-buffer: 1600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARBON_PRESS_3
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1 
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHARCOAL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: COAL_BLOCK
+          amount: 7
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COMPRESSED_CARBON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CARBON_CHUNK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_DIAMOND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAW_CARBONADO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBONADO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_CARBON_PRESS_5:
+  category: slime_customizer_slimefun_machine
+  machine-name: '&c碳压机 &7- &eV'
+  machine-lore:
+  - '&7该等级的碳压机'
+  - '&7可以将8个压缩碳压为1个碳块'
+  block-type: BLACK_STAINED_GLASS
+  progress-bar-item: DIAMOND_PICKAXE
+  stats:
+    energy-consumption: 640
+    energy-buffer: 3200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CARBONADO
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_CARBON_PRESS_4
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: CARBONADO_EDGED_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1 
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHARCOAL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COAL_BLOCK
+          amount: 7
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CARBON
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COMPRESSED_CARBON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CARBON_CHUNK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_DIAMOND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAW_CARBONADO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBONADO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COMPRESSED_CARBON
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARBON_CHUNK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
